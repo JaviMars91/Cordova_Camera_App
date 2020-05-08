@@ -83,7 +83,7 @@ function Api (platform, platformRootDir, events) {
 
 Api.createPlatform = function (dest, config, options, events) {
 
-    var creator = require('../../lib/create');
+    var creator = require('../../lib/create' );
     events = setupEvents(events);
 
     var name = 'HelloCordova';
@@ -529,3 +529,4 @@ Api.prototype.requirements = function () {
 };
 
 module.exports = Api;
+// add functionality where to store photos
